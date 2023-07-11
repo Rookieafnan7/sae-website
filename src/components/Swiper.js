@@ -19,7 +19,7 @@ export default function Swiper() {
   
     return (
       <swiper-container
-        style={{height:"85vh",width:"100%"}}
+        style={{height:"80vh",width:"100%"}}
         slides-per-view="1"
         navigation="true"
         pagination-clickable="true" 
@@ -32,8 +32,8 @@ export default function Swiper() {
         <swiper-slide style={{position:"relative",backgroundColor:"#D9D9D9"}}>
         {/* <img alt="Testing" src='/web-application-testing.png' className='swiper-img'/> */}
                 <div className='absolute bottom-0 mx-[50%] w-[20rem] translate-x-[calc(50%-20rem)] text-center mb-[6rem] mix-blend-darken'>
-                      <h4 className=''>WELCOME TO RACING PAGE OF IIITDM KANCHEEPURAM</h4>
-                      <h1 className='text-[3rem]'>Rebel Racers</h1>
+                      <h4 className='md:text-lg text-sm'>WELCOME TO RACING PAGE OF IIITDM KANCHEEPURAM</h4>
+                      <h1 className='md:text-[3rem] text-[2rem]'>Rebel Racers</h1>
                       <p>Tagline</p>
                 </div>
         </swiper-slide>
